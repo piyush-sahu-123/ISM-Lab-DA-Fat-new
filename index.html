@@ -402,7 +402,7 @@
         if (url.includes("http") && url.includes("www")) {
           document.getElementById("predict").innerHTML = "Predicting ..."
 
-          fetch("http://127.0.0.1:8000/predict/", {
+          fetch("https://fastidious-mermaid-d2f64f.netlify.app/predict/", {
             method: "POST",
             headers: {
               Accept: "application/json",
